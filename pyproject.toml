@@ -24,6 +24,8 @@ dependencies = [
     "scikit-learn >=1.0,<2",
     "torch >= 1.7,<3",
     "typing-extensions >= 4.0.1,<5",
+    "pynvml >= 8.0,<9",
+    "tqdm >= 4.0,<5",
 ]
 dynamic = ["version", "description"]
 keywords = [
